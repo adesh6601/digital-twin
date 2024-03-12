@@ -22,8 +22,8 @@ function Home() {
         <Grid item xs = {1} style = {{backgroundColor : "blue", height : "93vh"}}>
           <SideBar/>
         </Grid>
-        <Grid item xs = {5.5} style = {{backgroundColor : "black"}}>
-          Viewer area
+        <Grid item xs = {5.5} style = {{backgroundColor : "white"}}>
+          <ActuatorInfo/>
         </Grid>
         <Grid item xs = {5.5} style = {{backgroundColor : "green"}}>
           <Graphs/>
