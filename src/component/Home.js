@@ -6,7 +6,7 @@ import Graphs from "./Graphs";
 import ActuatorInfo from "./ActuatorInfo";
 
 const useStyles = makeStyles({
-  backgroundColor : {
+  titleBar : {
     backgroundColor : "skyblue", height : '7vh', fontSize : '1rem'
   }
 });
@@ -15,7 +15,7 @@ function Home() {
   const classes = useStyles()
   return (
     <div>
-      <Grid item xs={12} className={classes.backgroundColor}>
+      <Grid item xs={12} className={classes.titleBar}>
           <Typography> Actuator Digital Twin </Typography>
       </Grid>
       <Grid container item xs = {12}>
