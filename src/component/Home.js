@@ -12,15 +12,15 @@ const useStyles = makeStyles({
   },
   SideBarCSS: {
     backgroundColor: "#ece9d9",
-    height: "92vh",
+    height: "96vh",
   },
   viewerAreaCSS: {
     backgroundColor: "#ece9d9",
-    height: "92vh",
+    height: "96vh",
   },
   graphsAreaCSS: {
     backgroundColor: "#ece9d9",
-    height: "92vh",
+    height: "96vh",
   },
 });
 
@@ -31,8 +31,8 @@ function Home() {
       <Grid item xs={12} className={classes.titleBarCSS}>
         <Typography
           style={{
-            fontSize: "35px",
-            fontWeight: "bold",
+            fontSize: "45px",
+            fontWeight: "",
             textAlign: "left",
             marginLeft: "20px",
             color: "#f4fcff",
@@ -41,19 +41,19 @@ function Home() {
           Actuator Digital Twin
         </Typography>
       </Grid>
-      <Grid
-        container
-        item
-        xs={12}
-      >
-        <Grid item xs={1} className={classes.SideBarCSS} style={{
-          border: "0.5px solid black", // Make the border visible
-        }}>
+      <Grid container item xs={12}>
+        <Grid
+          item
+          xs={1}
+          className={classes.SideBarCSS}
+          style={{
+            border: "0.5px solid gray",
+          }}
+        >
           <SideBar />
         </Grid>
         <Grid item xs={5.5} className={classes.viewerAreaCSS}>
-          Viewer area
-          {/* <ActuatorInfo/> */}
+          <ActuatorInfo />
         </Grid>
         <Grid item xs={5.5} className={classes.graphsAreaCSS}>
           <Graphs />
