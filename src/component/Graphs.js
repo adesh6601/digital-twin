@@ -27,7 +27,7 @@ const useStyles = makeStyles({
   selectionDiv2: {
     display: "flex",
     marginLeft: "100px",
-    marginTop: "4rem",
+    marginTop: "3rem",
   },
   resultTypeText: {
     fontSize: "1.5rem",
@@ -86,7 +86,7 @@ function Graphs() {
               },
             ]}
             width={800}
-            height={400}
+            height={450}
           />
         </div>
       </Grid>
@@ -120,7 +120,7 @@ function Graphs() {
               },
             ]}
             width={800}
-            height={400}
+            height={450}
           />
         </div>
       </Grid>
