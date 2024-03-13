@@ -86,7 +86,7 @@ function Graphs() {
               },
             ]}
             width={800}
-            height={350}
+            height={330}
           />
         </div>
       </Grid>
@@ -109,7 +109,7 @@ function Graphs() {
         </div>
       </Grid>
 
-      <Grid>
+      <Grid style={{marginBottom : ""}}>
         <div className={classes.graphContainer2}>
           <LineChart
             xAxis={[{ data: xValues }]}
@@ -120,7 +120,7 @@ function Graphs() {
               },
             ]}
             width={800}
-            height={350}
+            height={330}
           />
         </div>
       </Grid>
