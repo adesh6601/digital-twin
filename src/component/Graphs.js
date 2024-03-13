@@ -56,7 +56,7 @@ function Graphs() {
   };
 
   return (
-    <div>
+    <div style={{marginLeft : "-4rem"}}>
       <Grid>
         <div className={classes.selectionDiv1}>
           <span className={classes.resultTypeText}>Result Type :</span>
@@ -86,7 +86,7 @@ function Graphs() {
               },
             ]}
             width={800}
-            height={450}
+            height={350}
           />
         </div>
       </Grid>
@@ -120,7 +120,7 @@ function Graphs() {
               },
             ]}
             width={800}
-            height={450}
+            height={350}
           />
         </div>
       </Grid>
